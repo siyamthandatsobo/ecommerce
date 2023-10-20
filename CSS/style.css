@@ -318,7 +318,8 @@ background-color: #ccc;
                 padding: 100px 20px; /* Adjust padding for smaller screens */
                 @media screen and (max-width: 768px) {
                   .hero {
-                      padding: 100px 20px; /* Adjust padding for smaller screens */
+                      padding: 100px 20px;
+                       border-radius: 20%;
                   }
                 }
 
