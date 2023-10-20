@@ -310,12 +310,7 @@ background-color: #ccc;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* ... other styles ... */
 
-/* Media queries for responsiveness /
-@media screen and (max-width: 768px) {
-            .hero {
-                padding: 100px 20px; /* Adjust padding for smaller screens */
                 @media screen and (max-width: 768px) {
                   .hero {
                       padding: 100px 20px;
@@ -346,3 +341,14 @@ background-color: #ccc;
   .about-content p {
       font-size: 1em;
   }
+  table {
+    border: 1px solid #130404;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #efe7e7;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px; /* Optional, add padding to cells for spacing */
+}
