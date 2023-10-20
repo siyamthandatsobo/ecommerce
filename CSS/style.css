@@ -312,10 +312,15 @@ background-color: #ccc;
 
 /* ... other styles ... */
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-  /* Adjust header layout for small devices */
-}
+/* Media queries for responsiveness /
+@media screen and (max-width: 768px) {
+            .hero {
+                padding: 100px 20px; /* Adjust padding for smaller screens */
+                @media screen and (max-width: 768px) {
+                  .hero {
+                      padding: 100px 20px; /* Adjust padding for smaller screens */
+                  }
+                }
 
   header li {
       margin-bottom: 10px;
