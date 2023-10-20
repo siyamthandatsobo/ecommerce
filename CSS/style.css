@@ -96,14 +96,14 @@ header a {
 .hero {
   background: url('./images/fashion-store-display-i5s6es944n29q9sp.jpg') center/cover no-repeat;
   color: rgb(255, 255, 255);
-  border-radius: 70px;
+  border-radius: 180px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   animation: fadeIn 5s forwards; /* Animation */
   width: 100%;
     background-size: cover;
   background-position: center;
     text-align: center;
-    padding: 100px 20px;
+    padding: 180px 50px;
 }
 
 .hero h1 {
@@ -292,6 +292,8 @@ background-color: #ccc;
 
 .about-content {
   flex: 2;
+  background-color: rgb(253, 236, 244);
+  border-radius: 30px;
 }
 
 .about-content h2 {
